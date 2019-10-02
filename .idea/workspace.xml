@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smproj/smproj/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
               <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/smproj/urls.py" />
         <option value="$PROJECT_DIR$/smproj/smproj/urls.py" />
         <option value="$PROJECT_DIR$/smproj/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -112,24 +122,6 @@
             <path>
               <item name="djangogirlss" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangogirlss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangogirlss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangogirlss" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangogirlss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangogirlss" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangogirlss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangogirlss" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangogirlss" type="b2602c69:ProjectViewProjectNode" />
@@ -295,6 +287,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
