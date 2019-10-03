@@ -9,8 +9,18 @@
 <body>
 <h3>Hola!</h3>
 <p> So eager to see this in action, can't wait!!!!!</p>
-
 <img src="{% static 'Img6.jpg' %}" alt="My Image"/>
 <img src="{% static 'Tanish.JPG' %}" alt="My Image"/>
+<br>
+<br><br>
+<br><br>
+{% for post in posts %}
+<div>
+    <h2><a href="">{{ post.title }}</a> </h2>
+    <p>published on: {{ post.published_date }}</p>
+    <p>{{ post.text|linebreaksbr }}</p>
+    <br><br>
+</div>
+{% endfor %}
 </body>
 </html>
