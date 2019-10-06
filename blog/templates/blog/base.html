@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 <body>
-    <h3>Hola!</h3>
-    <p> So eager to see this in action, can't wait!!!!!</p>
-    <img src="{% static 'Img6.jpg' %}" alt="My Image"/>
-    <img src="{% static 'Tanish.JPG' %}" alt="My Image"/>
     <div class="page-header">
-                <h1><a href="/">Satish's Blog</a></h1>
+    {% if user.is_authenticated %}
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+            <h3>Hola!</h3>
+            <p> So eager to see this in action, can't wait!!!!!</p>
+    {% endif %}
+    <!--    <img src="{% static 'Img6.jpg' %}" alt="My Image"/>-->
+    <!--    <img src="{% static 'Tanish.JPG' %}" alt="My Image"/>-->
+    <!--    <div class="page-header">-->
+    <!--                <h1><a href="/">Satish's Blog</a></h1>-->
     </div>
     <div class="content container">
         <div class="row">
